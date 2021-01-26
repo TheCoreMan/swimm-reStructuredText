@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 Sphinx = "^3.4.3"
+sphinx-autobuild = "^2020.9.1"
 
 [tool.poetry.dev-dependencies]
 
