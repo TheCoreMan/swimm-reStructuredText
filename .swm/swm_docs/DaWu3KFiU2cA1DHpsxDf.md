@@ -12,4 +12,8 @@ But hey - don't take my word for it, I'm just a Swimm unit. From [Write The Docs
 
 ## What to expect from this playlist?
 
-TODO.
+In this playlist you will learn how to use ReST to write documents in a gradual and engaging way.
+
+We will start small, and learn more step-by-step.
+
+In additional playlist we will also cover advanced ReST topics, so you can master ReST 💪🏻
