@@ -1,2 +1,5 @@
-# swimm-reStructuredText
+======
+README
+======
+
 Learn writing ReST documentation with using swimm!

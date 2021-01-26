@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'swimm-reStructuredText'
-copyright = '2021, You!'
-author = 'You!'
+copyright = '2021, Shay Nehmad'
+author = 'Shay Nehmad'
 
 
 # -- General configuration ---------------------------------------------------

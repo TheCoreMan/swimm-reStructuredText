@@ -7,10 +7,11 @@ Welcome to swimm-reStructuredText's documentation!
 ==================================================
 
 .. toctree::
+   :glob:
    :maxdepth: 2
    :caption: Contents:
 
-
+   **
 
 Indices and tables
 ==================
