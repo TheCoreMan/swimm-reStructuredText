@@ -2,7 +2,7 @@
     "id": "LwBS56U5tvXHBSzGWZFi",
     "name": "External Links",
     "dod": "Turn the keywords Swimm and Google into links, as specified",
-    "description": "There are two main ways to define and use external links.\n\nThe first is by embedding the link's URL **inline**.\n\nThe syntax is:\n```\n`Link text <link URL>`_\n```\nFor example:\n```\n`Google <https://www.google.com>`_\n```\n\nAnother way is to separate the link from the target definition, like so:\n```\nSearch at `Google_`.\n\n.. _Google: https://www.google.com/\n```",
+    "description": "There are two main ways to define and use external links.\n\n## Inline links\n\nThe first is by embedding the link's URL **inline**.\n\nThe syntax is:\n\n```\n`Link text <link URL>`_\n```\n\nSo, for example:\n\n```\n`Google <https://www.google.com>`_\n```\n\n## Target definition links\n\nAnother way is to separate the link from the target definition using `_` (underscore) after a single word, or ` `backticks around a few words`_ ` with an underscore at the end, like so:\n\n```\nSearch with Google_, or `duck duck go`_.\n\n.. _Google: https://www.google.com/\n.. _`duck duck go`: https://duckduckgo.com/\n```",
     "summary": "",
     "hunksOrder": [
         "docs/units/external_links.rst_0"
@@ -39,6 +39,6 @@
             ]
         }
     },
-    "app_version": "0.3.6-1",
+    "app_version": "0.3.5-1",
     "file_version": "1.0.4"
 }
