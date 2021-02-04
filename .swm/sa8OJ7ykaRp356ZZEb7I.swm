@@ -1,7 +1,7 @@
 {
     "id": "sa8OJ7ykaRp356ZZEb7I",
     "name": "Basic Text Formatting",
-    "dod": "",
+    "dod": "In this unit you should fix the \"text formatting\" file with the correct formatting.",
     "description": "Welcome!\n\nIn this unit we'll learn **cool** *text* `formatting` methods.\n\nIn ReST:\n\n- Bold emphasizing is done by wrapping the text with `**`\n- Italicizing is done by wrapping the text with `*`\n- Marking as \"Verbatim\", which is useful for commands, is done by wrapping the text with ` `` `\n\nGood luck!",
     "summary": "Cool, now you know the basics of text formatting. \n\nTo learn more see [this reference documentation](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#text-formatting), but you can also just continue to Swimm!",
     "hunksOrder": [
@@ -9,7 +9,7 @@
     ],
     "tests": [],
     "hints": [],
-    "play_mode": "walkthrough",
+    "play_mode": "handson",
     "swimmPatch": {
         "docs/units/text_formatting.rst": {
             "diffType": "MODIFIED",
@@ -38,5 +38,6 @@
         }
     },
     "app_version": "0.3.5-1",
-    "file_version": "1.0.4"
+    "file_version": "1.0.4",
+    "last_commit_sha_for_swimm_patch": "827778fec68164494e9bb8c843f76e0fc45fb772"
 }
