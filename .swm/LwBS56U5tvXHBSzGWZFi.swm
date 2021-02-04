@@ -1,0 +1,44 @@
+{
+    "id": "LwBS56U5tvXHBSzGWZFi",
+    "name": "External Links",
+    "dod": "Turn the keywords Swimm and Google into links, as specified",
+    "description": "There are two main ways to define and use external links.\n\nThe first is by embedding the link's URL **inline**.\n\nThe syntax is:\n```\n`Link text <link URL>`_\n```\nFor example:\n```\n`Google <https://www.google.com>`_\n```\n\nAnother way is to separate the link from the target definition, like so:\n```\nSearch at `Google_`.\n\n.. _Google: https://www.google.com/\n```",
+    "summary": "",
+    "hunksOrder": [
+        "docs/units/external_links.rst_0"
+    ],
+    "tests": [],
+    "hints": [
+        "Swimm's address is https://swimm.io",
+        "Look at the Unit's description, it has examples"
+    ],
+    "play_mode": "handson",
+    "swimmPatch": {
+        "docs/units/external_links.rst": {
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/docs/units/external_links.rst b/docs/units/external_links.rst\nindex f0ff974..30017df 100644\n--- a/docs/units/external_links.rst\n+++ b/docs/units/external_links.rst",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": []
+                    },
+                    "hunkDiffLines": [
+                        "@@ -1,7 +1,5 @@",
+                        "-Links are cool! Make sure that the next word Swimm_ actually links to Swimm's website. Separate the link and target definition.",
+                        "+Links are cool! Make sure that the next word Swimm actually links to Swimm's website. Separate the link and target definition.",
+                        " ",
+                        "-On this line, the word `Google <https://www.google.com>`_ links to Google, using an inline link here.",
+                        "+On this line, the word Google links to Google, using an inline link here.",
+                        " ",
+                        "-Since we separated the link and target definition for Swimm, we can use the link again here: Swimm_, all without specifying the address again. How cool is that? 😎",
+                        "+Since we separated the link and target definition for Swimm, we can use the link again here: Swimm, all without specifying the address again. How cool is that? 😎",
+                        "-",
+                        "-.. _Swimm: https://swimm.io/"
+                    ]
+                }
+            ]
+        }
+    },
+    "app_version": "0.3.6-1",
+    "file_version": "1.0.4"
+}
