@@ -15,4 +15,11 @@ Within the virtual environment, run the following command:
 Wait for a few seconds, and your browser will open. You should be able to see something that looks like this:
 ![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FMTwLk0sV7GJjOsFsx5vf%2Fimg%2Fb35354f7-d7e4-41d8-af54-a4f9a438806d.png?alt=media&token=97da07f8-b3b5-4b69-baf6-8e593e02d866)
 
+## This setup is awesome
+It should allow you to see and feel how your Restructured Text is being rendered.
+
+# This is what the whole setup should look like
+![Autobuild - demo](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FMTwLk0sV7GJjOsFsx5vf%2Fimg%2Fautobuild-demo.gif?alt=media&token=daa5cb3c-e91a-4459-af4e-8d440e0d380d)
+
+# Let's get Swimming!
 Congrats! You are ready to Swimm 🏊🏻‍♂️🏊🏻‍♀️
