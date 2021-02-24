@@ -100,11 +100,7 @@
         },
         {
             "type": "text",
-            "text": "There are other options to enahnce `toctree` - from adding a caption to the TOC, to displaying titles only, finding all RST files that match a `glob` pattern and others.\n\nRead about these options and more [here](https://www.sphinx-doc.org/en/1.5/markup/toctree.html)."
-        },
-        {
-            "type": "text",
-            "text": ""
+            "text": "Now you know the basics of creating a Table/Tree of Contents 🌲📒\n\nThere are other options to enahnce `toctree` - from adding a caption to the TOC, to displaying titles only, finding all RST files that match a `glob` pattern and others.\n\nRead about these options and more [here](https://www.sphinx-doc.org/en/1.5/markup/toctree.html)."
         }
     ],
     "file_version": "2.0.0",
