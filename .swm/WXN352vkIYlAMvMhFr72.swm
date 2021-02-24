@@ -1,0 +1,117 @@
+{
+    "id": "WXN352vkIYlAMvMhFr72",
+    "name": "Tree of RSTs",
+    "task": {
+        "dod": "",
+        "tests": [],
+        "hints": []
+    },
+    "content": [
+        {
+            "type": "text",
+            "text": "Especially as your project grows, you will probably create more than one RST file.\n\nThe `toctree` directive allows you to insert other RST files within a RST file.\n\nLet's consider this example:"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " In this document we include a Table Of Contents (TOC).\r",
+                " \r",
+                "*.. toctree::\r",
+                "*    :maxdepth: 2\r",
+                "*    :numbered:\r",
+                "*\r",
+                "*    intro.rst\r",
+                "*    first_chapter.rst\r",
+                "*    second_chapter.rst\r",
+                " \r",
+                " Of course, we can add text after the TOC as well."
+            ],
+            "firstLineNumber": 1,
+            "path": "docs/units/including_rst_files/main_file.rst",
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "The block above would render something similar to this:\n\n\n![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FMTwLk0sV7GJjOsFsx5vf%2Fimg%2F3799d65a-260f-4142-80ba-b51cc75fe7d4.png?alt=media&token=2e67a9aa-18c3-4924-8772-8158b0a06897)"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " \r",
+                " This is our first chapter :)\r",
+                " \r",
+                "*#######################\r",
+                "*First Heading of the first chapter\r",
+                "*#######################\r",
+                "*Some text\r",
+                "*\r",
+                "*Section 1\r",
+                "*=========\r",
+                "*Text\r",
+                "*\r",
+                "*Subsubsection 1\r",
+                "*---------------\r",
+                "*Text\r",
+                "*\r",
+                "*Subsubsubsection 1\r",
+                "*^^^^^^^^^^^^^^^^^^\r",
+                "*Text"
+            ],
+            "firstLineNumber": 4,
+            "path": "docs/units/including_rst_files/first_chapter.rst",
+            "comments": [
+                "But actually, there are many more headings within `first_chapter.rst`."
+            ]
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " In this document we include a Table Of Contents (TOC).\r",
+                " \r",
+                " .. toctree::\r",
+                "*    :maxdepth: 2\r",
+                "     :numbered:\r",
+                " \r",
+                "     intro.rst\r"
+            ],
+            "firstLineNumber": 1,
+            "path": "docs/units/including_rst_files/main_file.rst",
+            "comments": [
+                "This is exactly what `maxdepth` is for - indicating the depth of the tree, that is - how many levels should be displayed. Feel free to give it a try - change its value and see how it affects your output."
+            ]
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " \r",
+                " .. toctree::\r",
+                "     :maxdepth: 2\r",
+                "*    :numbered:\r",
+                " \r",
+                "     intro.rst\r",
+                "     first_chapter.rst\r"
+            ],
+            "firstLineNumber": 2,
+            "path": "docs/units/including_rst_files/main_file.rst",
+            "comments": [
+                "By using `:numbered:` we add section numbers."
+            ]
+        },
+        {
+            "type": "text",
+            "text": "There are other options to enahnce `toctree` - from adding a caption to the TOC, to displaying titles only, finding all RST files that match a `glob` pattern and others.\n\nRead about these options and more [here](https://www.sphinx-doc.org/en/1.5/markup/toctree.html)."
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
+    ],
+    "file_version": "2.0.0",
+    "meta": {
+        "app_version": "0.3.8-0",
+        "file_blobs": {
+            "docs/units/including_rst_files/main_file.rst": "abb9527610347f30ad1820b8a27da442c362c991",
+            "docs/units/including_rst_files/first_chapter.rst": "9f9f08d78afa002b25c377d8d6baff7c17400db0"
+        }
+    }
+}
