@@ -9,7 +9,7 @@
     "content": [
         {
             "type": "text",
-            "text": ""
+            "text": "Since ReStructuredText is used quite often by programmers, there are a few ways to display code!"
         },
         {
             "type": "snippet",
