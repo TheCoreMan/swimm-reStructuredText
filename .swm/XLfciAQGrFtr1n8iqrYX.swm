@@ -1,0 +1,153 @@
+{
+    "id": "XLfciAQGrFtr1n8iqrYX",
+    "name": "Displaying Code",
+    "task": {
+        "dod": "",
+        "tests": [],
+        "hints": []
+    },
+    "content": [
+        {
+            "type": "text",
+            "text": "Since ReStructuredText is used quite often by programmers, there are a few ways to display code!"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "*Quick n' Dirty: Literal Block",
+                "*=============================",
+                "*",
+                "*This is the easiest way to include code. Use a double column ``::`` and indent the literal block:",
+                "*",
+                "*::",
+                "*",
+                "*    def hello():",
+                "*        print(\"Hello world!\")",
+                "*",
+                " For Control Freaks: Code Block Directive",
+                " ========================================",
+                " "
+            ],
+            "firstLineNumber": 7,
+            "path": "docs/units/displaying_code.rst",
+            "comments": [
+                "This is the easiest way to include code."
+            ]
+        },
+        {
+            "type": "text",
+            "text": "But if you need more control, use the `code-block` directive.\n\n[See all of the options code-block has to offer in this reference documentation!](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-code-block) Try to play around with these options within `displaying_code.rst` while `sphinx-autobuild` is running to see the effect of each option in real-time."
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "     def hello():",
+                "         print(\"Hello world!\")",
+                " ",
+                "*For Control Freaks: Code Block Directive",
+                "*========================================",
+                "*",
+                "*By default, when using a literal block, the language is Python. When displaying code, sometimes we want",
+                "*more control: which language is it in? Do we want to display line numbers? etc. For that, the ``code-block``",
+                "*directive comes to the rescue!",
+                "*",
+                "*First, you can choose the language of the code example. Here we're using *Rust*, not Python:",
+                "*",
+                "*.. code-block:: rust",
+                "*   ",
+                "*   fn main() {",
+                "*       println!(\"Hello World!\");",
+                "*   }",
+                "*",
+                "*To display line numbers as well, use the ``:linenos:`` option (this example is in *go*):",
+                "*",
+                "*.. code-block:: go",
+                "*   :linenos:",
+                "*",
+                "*   func main() {",
+                "*       fmt.Println(\"Hello World!\")",
+                "*   }",
+                "*",
+                "*You can also emphasize specific lines using the ``:emphasize-lines:`` directive. In this example, we'll emphasize the fourth and fifth lines (and just for fun - let's use *Clojure*, this time):",
+                "*",
+                "*.. code-block:: clojure",
+                "*   :emphasize-lines: 4,5",
+                "*",
+                "*   (ns clojure.examples.hello",
+                "*      (:gen-class))",
+                "*   (defn hello-world []",
+                "*      (println \"Hello World\"))",
+                "*   (hello-world)",
+                "*",
+                "*Another cool thing to do is caption the code example using the ``caption`` option:",
+                "*",
+                "*.. code-block:: cpp",
+                "*   :caption: Hello world in C++",
+                "*",
+                "*   #include <iostream>",
+                "*",
+                "*   int main() {",
+                "*       std::cout << \"Hello World!\";",
+                "*       return 0;",
+                "*   }",
+                "*",
+                "*And of course, you can combine all the options (and there are a lot more)!",
+                "*",
+                "*.. code-block:: C",
+                "*   :caption: Hello world in C",
+                "*   :emphasize-lines: 4",
+                "*   :linenos:",
+                "*   ",
+                "*   #include <stdio.h>",
+                "*",
+                "*   int main() {",
+                "*      printf(\"Hello, World!\");",
+                "*      return 0;",
+                "*   }",
+                "*",
+                " For External Files: Literal Include",
+                " ===================================",
+                " "
+            ],
+            "firstLineNumber": 14,
+            "path": "docs/units/displaying_code.rst",
+            "comments": [
+                "In this snippet you can see some of the different options the code-block directive offers."
+            ]
+        },
+        {
+            "type": "text",
+            "text": "What if you need to include a LOT of code? Or code you've already written?"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "       return 0;",
+                "    }",
+                " ",
+                "*For External Files: Literal Include",
+                "*===================================",
+                "*",
+                "*If you want to include another code file and display it in the documentation (useful for long texts), you can do so using the ``literalinclude`` directive. Here we'll include the ``example_code.py`` file:",
+                "*",
+                "*.. literalinclude:: example_code.py",
+                "*",
+                "*"
+            ],
+            "firstLineNumber": 75,
+            "path": "docs/units/displaying_code.rst",
+            "comments": [
+                "To test this part out, run sphinx-autobuild and change something in the `example_code.py` file."
+            ]
+        },
+        {
+            "type": "text",
+            "text": "So now you know how to include code in your ReST documents! This is a very good way to communicate ideas about code."
+        }
+    ],
+    "file_version": "2.0.0",
+    "meta": {
+        "app_version": "0.3.8-0",
+        "file_blobs": {}
+    }
+}
