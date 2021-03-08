@@ -105,7 +105,7 @@
     ],
     "file_version": "2.0.0",
     "meta": {
-        "app_version": "0.3.8-0",
+        "app_version": "0.3.9-6",
         "file_blobs": {
             "docs/units/including_rst_files/main_file.rst": "abb9527610347f30ad1820b8a27da442c362c991",
             "docs/units/including_rst_files/first_chapter.rst": "9f9f08d78afa002b25c377d8d6baff7c17400db0"
