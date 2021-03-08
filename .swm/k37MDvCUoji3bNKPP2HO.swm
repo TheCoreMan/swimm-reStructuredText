@@ -1,80 +1,83 @@
 {
     "id": "k37MDvCUoji3bNKPP2HO",
     "name": "Basic Headings",
-    "dod": "In this unit you should use the correct level of headings according to the unit's intro. ",
-    "description": "# Headings are very useful\n\n## tools for\n\n## dividing\n\n### a document\n\n### into sections.\n\n＼(٥⁀▽⁀ )／\n\n# How do headings work in ReST?\n\nIn ReST, creating headings can be done in various ways.\n\nIn order to write a title, you can either underline it, or under and overline it. The following examples are correct titles.\n\n```restructuredtext\n*****\nTitle\n*****\n\nsubtitle\n########\n\nsubsubtitle\n***********\n```\n\nand so on. Note that if you use both over and underlining, then the length **must** be identical. Also, if using an underline - its length **must** be at least as long as the title itself.\n\nHere is a full explanation of the different heading levels in ReST:\n\n* `=` with overline, for document title\n* `#` with overline, for parts\n* `*` with overline, for chapters\n* `=`, for sections\n* `-`, for subsections\n* `^`, for subsubsections\n* `\"`, for paragraphs",
-    "summary": "Now you know how to use headings!",
-    "hunksOrder": [
-        "docs/units/headings.rst_0"
-    ],
-    "tests": [],
-    "hints": [],
-    "play_mode": "handson",
-    "swimmPatch": {
-        "docs/units/headings.rst": {
-            "diffType": "MODIFIED",
-            "fileDiffHeader": "diff --git a/docs/units/headings.rst b/docs/units/headings.rst\nindex 8a9edb9..ee9559c 100644\n--- a/docs/units/headings.rst\n+++ b/docs/units/headings.rst",
-            "hunks": [
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": []
-                    },
-                    "hunkDiffLines": [
-                        "@@ -1,49 +1,35 @@",
-                        "-========",
-                        " Headings",
-                        "-========",
-                        " ",
-                        "-######",
-                        " Part 1",
-                        "-######",
-                        " ",
-                        " This is some text directly under the first part. And some of it is even **BOLD**!",
-                        " ",
-                        "-*********",
-                        " Chapter 1",
-                        "-*********",
-                        " ",
-                        " Section 1",
-                        "-=========",
-                        " ",
-                        " You don't have to put content under each heading type. See how we didn't put any under ``Chapter 1``?",
-                        " ",
-                        " Subsubsection 1",
-                        "----------------",
-                        " ",
-                        " The subsubsections might seem excessive to you, and some times - they are! If you get this deep with titles, sometimes it's best to separate your document into a few ReST files. Later on we'll learn how to combine a few files together!",
-                        " ",
-                        " Subsubsubsection 1",
-                        "-^^^^^^^^^^^^^^^^^^",
-                        " ",
-                        " *Yo dawg, I heard you like subsubsections, so I put a subsection in your subsubsection.*",
-                        " ",
-                        " Paragraph 1",
-                        "-\"\"\"\"\"\"\"\"\"\"\"",
-                        " ",
-                        " Paragraph headers is as deep as the rabbit hole goes.",
-                        " ",
-                        " Paragraph 2",
-                        "-\"\"\"\"\"\"\"\"\"\"\"",
-                        " ",
-                        " This is just a normal paragraph with some text.",
-                        " ",
-                        " Subsubsubsection 2",
-                        "-^^^^^^^^^^^^^^^^^^",
-                        " ",
-                        " Another subsubsubsection, but without ``Paragragh``-level headings this time. You don't have to use all the headings in a document!",
-                        " ",
-                        "-######",
-                        " Part 2",
-                        "-######",
-                        " ",
-                        " This part has no sub-headings!"
-                    ]
-                }
-            ]
+    "file_version": "2.0.0",
+    "meta": {
+        "app_version": "0.3.9-6",
+        "file_blobs": {
+            "docs/units/headings.rst": "8a9edb929e055257a4db09ea0a9f8904bac55cf7"
         }
     },
-    "app_version": "0.3.5-1",
-    "file_version": "1.0.4"
+    "content": [
+        {
+            "type": "text",
+            "text": "# Headings are very useful\n\n## tools for\n\n## dividing\n\n### a document\n\n### into sections.\n\n＼(٥⁀▽⁀ )／\n\n# How do headings work in ReST?\n\nIn ReST, creating headings can be done in various ways.\n\nIn order to write a title, you can either underline it, or under and overline it. The following examples are correct titles.\n\n```restructuredtext\n*****\nTitle\n*****\n\nsubtitle\n########\n\nsubsubtitle\n***********\n```\n\nand so on. Note that if you use both over and underlining, then the length **must** be identical. Also, if using an underline - its length **must** be at least as long as the title itself.\n\nHere is a full explanation of the different heading levels in ReST:\n\n* `=` with overline, for document title\n* `#` with overline, for parts\n* `*` with overline, for chapters\n* `=`, for sections\n* `-`, for subsections\n* `^`, for subsubsections\n* `\"`, for paragraphs"
+        },
+        {
+            "type": "snippet",
+            "path": "docs/units/headings.rst",
+            "comments": [],
+            "firstLineNumber": 1,
+            "lines": [
+                "*========",
+                " Headings",
+                "*========",
+                " ",
+                "*######",
+                " Part 1",
+                "*######",
+                " ",
+                " This is some text directly under the first part. And some of it is even **BOLD**!",
+                " ",
+                "**********",
+                " Chapter 1",
+                "**********",
+                " ",
+                " Section 1",
+                "*=========",
+                " ",
+                " You don't have to put content under each heading type. See how we didn't put any under ``Chapter 1``?",
+                " ",
+                " Subsubsection 1",
+                "*---------------",
+                " ",
+                " The subsubsections might seem excessive to you, and some times - they are! If you get this deep with titles, sometimes it's best to separate your document into a few ReST files. Later on we'll learn how to combine a few files together!",
+                " ",
+                " Subsubsubsection 1",
+                "*^^^^^^^^^^^^^^^^^^",
+                " ",
+                " *Yo dawg, I heard you like subsubsections, so I put a subsection in your subsubsection.*",
+                " ",
+                " Paragraph 1",
+                "*\"\"\"\"\"\"\"\"\"\"\"",
+                " ",
+                " Paragraph headers is as deep as the rabbit hole goes.",
+                " ",
+                " Paragraph 2",
+                "*\"\"\"\"\"\"\"\"\"\"\"",
+                " ",
+                " This is just a normal paragraph with some text.",
+                " ",
+                " Subsubsubsection 2",
+                "*^^^^^^^^^^^^^^^^^^",
+                " ",
+                " Another subsubsubsection, but without ``Paragragh``-level headings this time. You don't have to use all the headings in a document!",
+                " ",
+                "*######",
+                " Part 2",
+                "*######",
+                " ",
+                " This part has no sub-headings!"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Now you know how to use headings!"
+        }
+    ],
+    "task": {
+        "dod": "In this unit you should use the correct level of headings according to the unit's intro. ",
+        "hints": [],
+        "tests": []
+    }
 }
